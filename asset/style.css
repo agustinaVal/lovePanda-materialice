@@ -1,0 +1,79 @@
+* {
+  color: #FFF;
+}
+
+body {
+  background: #abe188;
+}
+
+nav .nav-wrapper {
+  height: 10em;
+}
+
+img {
+  filter: grayscale(100);
+}
+
+/* Estilos para modificar el margin y padding de los rows y cols */
+
+.row {
+  margin-bottom: 0;
+}
+
+.row .col {
+  padding: 0;
+}
+
+/* Estilos de las imágenes grandes */
+
+.imagen img {
+  max-width: 100%;
+  width: 120%;
+  height: auto;
+}
+
+.fotos img {
+  max-width: 100%;
+  width: 120%;
+  height: auto;
+}
+
+.imagen {
+  background: #ff8a65;
+  border-bottom: 1em solid #ff8a65;
+  border-top: 1.5em solid #ff8a65;
+}
+
+.fotos{
+  background: #ff8a65;
+  border-bottom: 0;
+  border-top: 1.5em solid #ff8a65;
+}
+
+/* Estilo de la caja de texto */
+
+.text {
+  background: #ff8a65;
+  text-align: center;
+  padding: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+/* Estilos galería de imágenes pequeñas */
+
+.img-chicas img {
+  border: 1em solid #FFF;
+  margin-right: 2em;
+  width: 150px;
+  height: auto;
+  filter: none;
+}
+
+
+/* Estilos del pie de página */
+
+.footer {
+  background: #ff8a65;
+  text-align: center;
+}
